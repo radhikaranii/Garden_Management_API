@@ -1,0 +1,16 @@
+{
+  "name": "garden-management-api",
+  "version": "1.0.0",
+  "description": "Node.js backend for the Garden Management project.",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=25.0.0"
+  }
+}
